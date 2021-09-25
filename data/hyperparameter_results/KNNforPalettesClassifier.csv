@@ -1,0 +1,7 @@
+classifier,group,params,score,target
+K-NN,PALETTES-RGB,"{'neighbors': 26, 'weights': 'uniform'}",0.171223,GENRE
+K-NN,PALETTES-HLS,"{'neighbors': 33, 'weights': 'uniform'}",0.220144,GENRE
+K-NN,PALETTES-RGB,"{'neighbors': 33, 'weights': 'distance'}",0.137356,STYLE
+K-NN,PALETTES-HLS,"{'neighbors': 13, 'weights': 'distance'}",0.200257,STYLE
+K-NN,PALETTES-RBG,"{'neighbors': 21, 'weights': 'distance'}",0.277698,ARTIST
+K-NN,PALETTES-HLS,"{'neighbors': 12, 'weights': 'distance'}",0.34964,ARTIST

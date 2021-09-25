@@ -1,0 +1,19 @@
+classifier,group,params,score,target
+LogisticRegression,COLOURS,"{'C': 10.0, 'multi_class': 'multinomial', 'penalty': 'l2', 'solver': 'newton-cg'}",0.514693,ARTIST
+LogisticRegression,COLOURS,"{'C': 10.0, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'newton-cg'}",0.303587,GENRE
+LogisticRegression,COLOURS,"{'C': 10.0, 'multi_class': 'multinomial', 'penalty': 'l2', 'solver': 'lbfgs'}",0.304798,STYLE
+LogisticRegression,PALETTES-RGB,"{'C': 100.0, 'multi_class': 'multinomial', 'penalty': 'l2', 'solver': 'newton-cg'}",0.372083,ARTIST
+LogisticRegression,PALETTES-RGB,"{'C': 0.1, 'multi_class': 'ovr', 'penalty': 'l1', 'solver': 'liblinear'}",0.213483,GENRE
+LogisticRegression,PALETTES-RGB,"{'C': 10.0, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'newton-cg'}",0.186948,STYLE
+LogisticRegression,PALETTES-HLS,"{'C': 1.0, 'multi_class': 'multinomial', 'penalty': 'l1', 'solver': 'saga'}",0.399957,ARTIST
+LogisticRegression,PALETTES-HLS,"{'C': 0.1, 'multi_class': 'multinomial', 'penalty': 'l1', 'solver': 'saga'}",0.229473,GENRE
+LogisticRegression,PALETTES-HLS,"{'C': 1.0, 'multi_class': 'ovr', 'penalty': 'l1', 'solver': 'saga'}",0.227447,STYLE
+LogisticRegression,LRG-PALETTES-RGB,"{'C': 10.0, 'multi_class': 'multinomial', 'penalty': 'l2', 'solver': 'newton-cg'}",0.359551,ARTIST
+LogisticRegression,LRG-PALETTES-RGB,"{'C': 1.0, 'multi_class': 'ovr', 'penalty': 'l1', 'solver': 'saga'}",0.22299,GENRE
+LogisticRegression,LRG-PALETTES-RGB,"{'C': 10.0, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}",0.188868,STYLE
+LogisticRegression,LRG-PALETTES-HLS,"{'C': 1.0, 'multi_class': 'multinomial', 'penalty': 'l2', 'solver': 'lbfgs'}",0.444685,ARTIST
+LogisticRegression,LRG-PALETTES-HLS,"{'C': 0.1, 'multi_class': 'multinomial', 'penalty': 'l2', 'solver': 'newton-cg'}",0.227528,GENRE
+LogisticRegression,LRG-PALETTES-HLS,"{'C': 1.0, 'multi_class': 'multinomial', 'penalty': 'l1', 'solver': 'saga'}",0.241459,STYLE
+LogisticRegression,IMAGE,"{'C': 100.0, 'multi_class': 'multinomial', 'penalty': 'l2', 'solver': 'newton-cg'}",0.809421,ARTIST
+LogisticRegression,IMAGE,"{'C': 10.0, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}",0.576707,GENRE
+LogisticRegression,IMAGE,"{'C': 10.0, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}",0.513052,STYLE

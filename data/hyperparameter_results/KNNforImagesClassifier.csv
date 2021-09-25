@@ -1,0 +1,4 @@
+classifier,group,params,score,target
+K-NN,IMAGES,"{'neighbors': 4, 'weights': 'distance'}",0.505036,GENRE
+K-NN,IMAGES,"{'neighbors': 18, 'weights': 'distance'}",0.526316,STYLE
+K-NN,IMAGES,"{'neighbors': 4, 'weights': 'distance'}",0.732374,ARTIST

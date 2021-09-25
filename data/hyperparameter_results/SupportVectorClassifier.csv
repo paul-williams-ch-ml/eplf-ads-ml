@@ -1,0 +1,19 @@
+classifier,group,params,score,target
+SVC,COLOURS,"{'C': 10.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.579732,ARTIST
+SVC,COLOURS,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'poly'}",0.32433,GENRE
+SVC,COLOURS,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.347025,STYLE
+SVC,PALETTES-RGB,"{'C': 10.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.388505,ARTIST
+SVC,PALETTES-RGB,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.219749,GENRE
+SVC,PALETTES-RGB,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.210749,STYLE
+SVC,PALETTES-HLS,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.434745,ARTIST
+SVC,PALETTES-HLS,"{'C': 0.1, 'gamma': 'scale', 'kernel': 'rbf'}",0.231417,GENRE
+SVC,PALETTES-HLS,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.243762,STYLE
+SVC,LRG-PALETTES-RGB,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.401901,ARTIST
+SVC,LRG-PALETTES-RGB,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.224071,GENRE
+SVC,LRG-PALETTES-RGB,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.222265,STYLE
+SVC,LRG-PALETTES-HLS,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.469965,ARTIST
+SVC,LRG-PALETTES-HLS,"{'C': 0.1, 'gamma': 'scale', 'kernel': 'rbf'}",0.229257,GENRE
+SVC,LRG-PALETTES-HLS,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.265259,STYLE
+SVC,IMAGE,"{'C': 10.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.822818,ARTIST
+SVC,IMAGE,"{'C': 10.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.580164,GENRE
+SVC,IMAGE,"{'C': 1.0, 'gamma': 'scale', 'kernel': 'sigmoid'}",0.533013,STYLE
